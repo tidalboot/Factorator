@@ -2,7 +2,7 @@
 import Foundation
 import UIKit
 
-public struct ColorPicker {
+public class ColorPicker {
     let colorsArray = [
     UIColor(red: 90/255.0, green: 187/255.0, blue: 181/255.0, alpha: 1.0), //teal color
     UIColor(red: 222/255.0, green: 171/255.0, blue: 66/255.0, alpha: 1.0), //yellow color

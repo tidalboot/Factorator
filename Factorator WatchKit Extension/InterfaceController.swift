@@ -11,10 +11,14 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    
+    let factBook = FactBook()
 
+    @IBOutlet var factLabel: WKInterfaceLabel!
+    
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
-        
+        factLabel.setText(factBook.randomFact())
         // Configure interface objects here.
     }
 

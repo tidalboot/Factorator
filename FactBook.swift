@@ -3,6 +3,11 @@
 import Foundation
 
 public class FactBook {
+    
+    public init () {
+    var foo = "f"
+     }
+    
     let factsArray = [
         "Ants stretch when they wake up in the morning.",
         "Ostriches can run faster than horses.",
