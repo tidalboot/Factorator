@@ -1,10 +1,3 @@
-//
-//  InterfaceController.swift
-//  Factorator WatchKit Extension
-//
-//  Created by Nick Jones on 09/07/2015.
-//  Copyright (c) 2015 Nick Jones. All rights reserved.
-//
 
 import WatchKit
 import Foundation
