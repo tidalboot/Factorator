@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC5A08AC1B4EA939000E31E7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A08AB1B4EA939000E31E7 /* InterfaceController.swift */; };
+		FC5A08AE1B4EA939000E31E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5A08AD1B4EA939000E31E7 /* Images.xcassets */; };
+		FC5A08B21B4EA939000E31E7 /* Factorator WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FC5A08B11B4EA939000E31E7 /* Factorator WatchKit App.app */; };
+		FC5A08BA1B4EA939000E31E7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5A08B81B4EA939000E31E7 /* Interface.storyboard */; };
+		FC5A08BC1B4EA939000E31E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5A08BB1B4EA939000E31E7 /* Images.xcassets */; };
+		FC5A08BF1B4EA93A000E31E7 /* Factorator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FC5A08A71B4EA939000E31E7 /* Factorator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FC8CCDAA1A7FB0FF00374C31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CCDA91A7FB0FF00374C31 /* AppDelegate.swift */; };
 		FC8CCDAC1A7FB0FF00374C31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CCDAB1A7FB0FF00374C31 /* ViewController.swift */; };
 		FC8CCDAF1A7FB0FF00374C31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8CCDAD1A7FB0FF00374C31 /* Main.storyboard */; };
@@ -14,6 +20,23 @@
 		FC8CCDCA1A7FCC1E00374C31 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CCDC91A7FCC1E00374C31 /* FactBook.swift */; };
 		FC8CCDCE1A7FD8AD00374C31 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CCDCD1A7FD8AD00374C31 /* ColorPicker.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC5A08B31B4EA939000E31E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8CCD9C1A7FB0FF00374C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5A08B01B4EA939000E31E7;
+			remoteInfo = "Factorator WatchKit App";
+		};
+		FC5A08BD1B4EA93A000E31E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC8CCD9C1A7FB0FF00374C31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5A08A61B4EA939000E31E7;
+			remoteInfo = "Factorator WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FC23967B1B4E789300AC759E /* Embed Frameworks */ = {
@@ -32,6 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				FC5A08BF1B4EA93A000E31E7 /* Factorator WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +63,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FC5A08A71B4EA939000E31E7 /* Factorator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Factorator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5A08AA1B4EA939000E31E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5A08AB1B4EA939000E31E7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FC5A08AD1B4EA939000E31E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC5A08B11B4EA939000E31E7 /* Factorator WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Factorator WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5A08B71B4EA939000E31E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5A08B91B4EA939000E31E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FC5A08BB1B4EA939000E31E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FC8CCDA41A7FB0FF00374C31 /* Factorator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Factorator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8CCDA81A7FB0FF00374C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC8CCDA91A7FB0FF00374C31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +82,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FC5A08A41B4EA939000E31E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FC8CCDA11A7FB0FF00374C31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,10 +99,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC5A08A81B4EA939000E31E7 /* Factorator WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A08AB1B4EA939000E31E7 /* InterfaceController.swift */,
+				FC5A08AD1B4EA939000E31E7 /* Images.xcassets */,
+				FC5A08A91B4EA939000E31E7 /* Supporting Files */,
+			);
+			path = "Factorator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FC5A08A91B4EA939000E31E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A08AA1B4EA939000E31E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC5A08B51B4EA939000E31E7 /* Factorator WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A08B81B4EA939000E31E7 /* Interface.storyboard */,
+				FC5A08BB1B4EA939000E31E7 /* Images.xcassets */,
+				FC5A08B61B4EA939000E31E7 /* Supporting Files */,
+			);
+			path = "Factorator WatchKit App";
+			sourceTree = "<group>";
+		};
+		FC5A08B61B4EA939000E31E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A08B71B4EA939000E31E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FC8CCD9B1A7FB0FF00374C31 = {
 			isa = PBXGroup;
 			children = (
 				FC8CCDA61A7FB0FF00374C31 /* Factorator */,
+				FC5A08A81B4EA939000E31E7 /* Factorator WatchKit Extension */,
+				FC5A08B51B4EA939000E31E7 /* Factorator WatchKit App */,
 				FC8CCDA51A7FB0FF00374C31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				FC8CCDA41A7FB0FF00374C31 /* Factorator.app */,
+				FC5A08A71B4EA939000E31E7 /* Factorator WatchKit Extension.appex */,
+				FC5A08B11B4EA939000E31E7 /* Factorator WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +181,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FC5A08A61B4EA939000E31E7 /* Factorator WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5A08C31B4EA93A000E31E7 /* Build configuration list for PBXNativeTarget "Factorator WatchKit Extension" */;
+			buildPhases = (
+				FC5A08A31B4EA939000E31E7 /* Sources */,
+				FC5A08A41B4EA939000E31E7 /* Frameworks */,
+				FC5A08A51B4EA939000E31E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5A08B41B4EA939000E31E7 /* PBXTargetDependency */,
+			);
+			name = "Factorator WatchKit Extension";
+			productName = "Factorator WatchKit Extension";
+			productReference = FC5A08A71B4EA939000E31E7 /* Factorator WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FC5A08B01B4EA939000E31E7 /* Factorator WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5A08C01B4EA93A000E31E7 /* Build configuration list for PBXNativeTarget "Factorator WatchKit App" */;
+			buildPhases = (
+				FC5A08AF1B4EA939000E31E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Factorator WatchKit App";
+			productName = "Factorator WatchKit App";
+			productReference = FC5A08B11B4EA939000E31E7 /* Factorator WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		FC8CCDA31A7FB0FF00374C31 /* Factorator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC8CCDC31A7FB0FF00374C31 /* Build configuration list for PBXNativeTarget "Factorator" */;
@@ -115,6 +227,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FC5A08BE1B4EA93A000E31E7 /* PBXTargetDependency */,
 			);
 			name = Factorator;
 			productName = Factoid;
@@ -131,6 +244,13 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Nick Jones";
 				TargetAttributes = {
+					FC5A08A61B4EA939000E31E7 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Q5LYGJE7L5;
+					};
+					FC5A08B01B4EA939000E31E7 = {
+						CreatedOnToolsVersion = 6.4;
+					};
 					FC8CCDA31A7FB0FF00374C31 = {
 						CreatedOnToolsVersion = 6.1;
 						DevelopmentTeam = Q5LYGJE7L5;
@@ -151,11 +271,31 @@
 			projectRoot = "";
 			targets = (
 				FC8CCDA31A7FB0FF00374C31 /* Factorator */,
+				FC5A08A61B4EA939000E31E7 /* Factorator WatchKit Extension */,
+				FC5A08B01B4EA939000E31E7 /* Factorator WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FC5A08A51B4EA939000E31E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5A08AE1B4EA939000E31E7 /* Images.xcassets in Resources */,
+				FC5A08B21B4EA939000E31E7 /* Factorator WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5A08AF1B4EA939000E31E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5A08BA1B4EA939000E31E7 /* Interface.storyboard in Resources */,
+				FC5A08BC1B4EA939000E31E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FC8CCDA21A7FB0FF00374C31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,6 +308,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FC5A08A31B4EA939000E31E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5A08AC1B4EA939000E31E7 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FC8CCDA01A7FB0FF00374C31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,7 +329,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FC5A08B41B4EA939000E31E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5A08B01B4EA939000E31E7 /* Factorator WatchKit App */;
+			targetProxy = FC5A08B31B4EA939000E31E7 /* PBXContainerItemProxy */;
+		};
+		FC5A08BE1B4EA93A000E31E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5A08A61B4EA939000E31E7 /* Factorator WatchKit Extension */;
+			targetProxy = FC5A08BD1B4EA93A000E31E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		FC5A08B81B4EA939000E31E7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5A08B91B4EA939000E31E7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		FC8CCDAD1A7FB0FF00374C31 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -193,6 +362,76 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FC5A08C11B4EA93A000E31E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Factorator_WatchKit_Extension;
+				INFOPLIST_FILE = "Factorator WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FC5A08C21B4EA93A000E31E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = Factorator_WatchKit_Extension;
+				INFOPLIST_FILE = "Factorator WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FC5A08C41B4EA93A000E31E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Factorator WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC5A08C51B4EA93A000E31E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Factorator WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		FC8CCDC11A7FB0FF00374C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -299,6 +538,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FC5A08C01B4EA93A000E31E7 /* Build configuration list for PBXNativeTarget "Factorator WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5A08C11B4EA93A000E31E7 /* Debug */,
+				FC5A08C21B4EA93A000E31E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC5A08C31B4EA93A000E31E7 /* Build configuration list for PBXNativeTarget "Factorator WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5A08C41B4EA93A000E31E7 /* Debug */,
+				FC5A08C51B4EA93A000E31E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FC8CCD9F1A7FB0FF00374C31 /* Build configuration list for PBXProject "Factorator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
