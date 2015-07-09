@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Factoid.xcodeproj">
+      location = "self:/Users/nickjones/Documents/My Apps/Factorator/Factorator.xcodeproj">
    </FileRef>
 </Workspace>
