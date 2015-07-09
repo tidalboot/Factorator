@@ -51,7 +51,6 @@ public class FactBook {
        "Travelling masseuses in ancient Japan were required by law to be blind.",
        "The bloodhound is the only animal whose evidence is admissible in court.",
        "James Fixx, the man who popularized jogging in America died of a heart attack while running.",
-       "Ancient Greeks practiced a form (ineffective) of birth control that consisted of having a woman hold her breath, making her squat, and sneezing.",
        "The FDA permits up to 5 whole insects per 100 grams of apple butter.",
        "There are no naturally occurring blue foods, even blueberries are purple!",
        "The skeleton of Jeremy Bentham is present in all the important meetings of the University of London.",

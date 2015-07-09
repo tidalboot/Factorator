@@ -13,7 +13,7 @@ import Foundation
 class InterfaceController: WKInterfaceController {
     
     let factBook = FactBook()
-
+    
     @IBOutlet var factLabel: WKInterfaceLabel!
     
     override func awakeWithContext(context: AnyObject?) {
@@ -32,4 +32,7 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func nextFact() {
+        factLabel.setText(factBook.randomFact())
+    }
 }

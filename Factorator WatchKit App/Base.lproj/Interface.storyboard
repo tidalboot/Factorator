@@ -10,7 +10,16 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Factorator_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" verticalAlignment="center" text="Foo" id="y24-uY-4YL"/>
+                        <label alignment="center" text="Did you know?" id="Qwu-fg-mBl"/>
+                        <label alignment="left" numberOfLines="10" id="y24-uY-4YL">
+                            <string key="text">Ancient Greeks practiced a form (ineffective) of birth control that consisted of having a woman hold her breath, making her squat, and sneezing.</string>
+                            <fontDescription key="font" type="system" pointSize="15"/>
+                        </label>
+                        <button width="1" alignment="center" verticalAlignment="bottom" title="Next fact" id="BcD-Ai-wiw">
+                            <connections>
+                                <action selector="nextFact" destination="AgC-eL-Hgc" id="prz-NF-cBE"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
                         <outlet property="factLabel" destination="y24-uY-4YL" id="yfH-o5-oSY"/>
