@@ -63,7 +63,7 @@
 		FC8CCD9B1A7FB0FF00374C31 = {
 			isa = PBXGroup;
 			children = (
-				FC8CCDA61A7FB0FF00374C31 /* Factoid */,
+				FC8CCDA61A7FB0FF00374C31 /* Factorator */,
 				FC8CCDA51A7FB0FF00374C31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +76,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC8CCDA61A7FB0FF00374C31 /* Factoid */ = {
+		FC8CCDA61A7FB0FF00374C31 /* Factorator */ = {
 			isa = PBXGroup;
 			children = (
 				FC8CCDC91A7FCC1E00374C31 /* FactBook.swift */,
@@ -87,8 +87,9 @@
 				FC8CCDB01A7FB0FF00374C31 /* Images.xcassets */,
 				FC8CCDA71A7FB0FF00374C31 /* Supporting Files */,
 			);
-			path = Factoid;
-			sourceTree = "<group>";
+			name = Factorator;
+			path = "/Users/nickjones/Documents/My Apps/Factorator/Factorator";
+			sourceTree = "<absolute>";
 		};
 		FC8CCDA71A7FB0FF00374C31 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -229,7 +230,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = Factoid;
+				PRODUCT_NAME = Factorator;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -265,7 +266,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Factoid;
+				PRODUCT_NAME = Factorator;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -277,7 +278,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				INFOPLIST_FILE = Factoid/Info.plist;
+				INFOPLIST_FILE = Factorator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Factorator;
 			};
@@ -289,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				INFOPLIST_FILE = Factoid/Info.plist;
+				INFOPLIST_FILE = Factorator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Factorator;
 			};
